@@ -94,7 +94,7 @@ int main() {
         cin >> t;
         if (t == 1) {
             int s, x;
-            cin >> s, x;
+            cin >> s >> x;
             up(1, 1, n, p[s], x);
         }
         else {
