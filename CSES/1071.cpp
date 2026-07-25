@@ -1,0 +1,42 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+using ll = long long;
+
+int main() {
+    ios_base::sync_with_stdio(0);
+    cin.tie(0);
+    cout.tie(0);
+
+    int t;
+    cin >> t;
+
+    while (t--) {
+        ll y, x;
+        cin >> y >> x;
+
+        ll z = max(y, x);
+        ll ans;
+
+        if (z % 2 == 0) {
+            if (y == z) {
+                ans = z * z - x + 1;
+            } 
+            else {
+                ans = (z - 1) * (z - 1) + y;
+            }
+        } 
+        else {
+            if (x == z) {
+                ans = z * z - y + 1;
+            } 
+            else {
+                ans = (z - 1) * (z - 1) + x;
+            }
+        }
+
+        cout << ans << endl;
+    }
+
+    return 0;
+}
