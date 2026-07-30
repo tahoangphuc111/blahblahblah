@@ -35,9 +35,9 @@ int main() {
     string right = left;
     reverse(right.begin(), right.end());
     cout << left;
-    if (mid != 0) {
-        cout << mid;
-    }
+    if (mid != 0){ 
+        }            
+        }
     cout << right;
     return 0;
 }

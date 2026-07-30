@@ -21,7 +21,7 @@ int main() {
 
         if (x < prev) {
             ans += prev - x;
-        } 
+        }
         else {
             prev = x;
         }

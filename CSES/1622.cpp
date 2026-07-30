@@ -19,6 +19,6 @@ int main() {
     cout << ans.size() << endl;
     for (string x : ans) {
         cout << x << endl;
-    }
+    
     return 0;
 }

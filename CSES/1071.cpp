@@ -33,6 +33,7 @@ int main() {
             else {
                 ans = (z - 1) * (z - 1) + x;
             }
+
         }
 
         cout << ans << endl;
